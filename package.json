@@ -1,12 +1,28 @@
 {
   "name": "practice-next-js",
-  "version": "0.1.0",
   "private": true,
+  "description": "Practice Next.js On GitHub Pages",
   "scripts": {
-    "dev": "next dev",
+    "start": "npx serve ./docs",
+    "next" : "next",
+    "dev"  : "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint" : "next lint",
+    "info" : "next info"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-next-js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-next-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-next-js/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
   },
   "dependencies": {
     "@types/node": "20.1.0",
